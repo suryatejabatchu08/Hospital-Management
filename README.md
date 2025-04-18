@@ -1,3 +1,5 @@
+# Hospital Management System
+
 **DocHub** is a comprehensive Hospital Management System that streamlines hospital-patient interactions through a user-friendly web platform. Built using HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL, this project allows patients to manage appointments, consultations, medicine orders, and even analyze medicine information with image uploads using the Gemini API.
 
 ## Features
