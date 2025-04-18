@@ -47,3 +47,54 @@ The application uses a MySQL database named `dochub` with the following key tabl
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/suryatejabatchu08/Hospital-Management.git
+```
+
+### Step 2. Set Up the Database
+- Open phpMyAdmin or any MySQL GUI.
+
+- Create a new database named (`dochub`).
+
+- Import the SQL file if available, or manually create the required tables:
+
+  - (`users`)
+
+  - (`user_details`)
+
+  - (`medicines`)
+
+  - (`orders`)
+
+  - (`order_items`)
+
+### Step 3. Place Project in Web Server Directory
+- If using XAMPP, move the project folder to:
+```bash
+C:\xampp\htdocs\Hospital-Management-System
+```
+- If using WAMP, place it in:
+```bash
+C:\wamp64\www\Hospital-Management-System
+```
+### Step 4. Start Apache and MySQL
+- Open the XAMPP or WAMP control panel.
+
+- Start the following services:
+
+  - Apache
+
+  - MySQL
+
+### Step 5. Access the Application
+- Open your web browser and go to:
+
+```bash
+http://localhost/Hospital-Management
+```
+- Register a new account and start using the system.
+
+### Step 6. Configure Gemini API for Medicine Analyzer
+- Visit Gemini and get your API key.
+
+- Locate the PHP script that handles the medicine analysis (`medprocess.php`).
+
+- Insert your API key in the appropriate place inside the script to enable functionality.
