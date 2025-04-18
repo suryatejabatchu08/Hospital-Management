@@ -52,19 +52,19 @@ git clone https://github.com/suryatejabatchu08/Hospital-Management.git
 ### Step 2. Set Up the Database
 - Open phpMyAdmin or any MySQL GUI.
 
-- Create a new database named (`dochub`).
+- Create a new database named `dochub`.
 
 - Import the SQL file if available, or manually create the required tables:
 
-  - (`users`)
+  - `users`
 
-  - (`user_details`)
+  - `user_details`
 
-  - (`medicines`)
+  - `medicines`
 
-  - (`orders`)
+  - `orders`
 
-  - (`order_items`)
+  - `order_items`
 
 ### Step 3. Place Project in Web Server Directory
 - If using XAMPP, move the project folder to:
